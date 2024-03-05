@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.display {
+  overflow: auto;
+  height: 400px;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  min-height: 400px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+.container .input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container .input-group #username {
+  letter-spacing: 2px;
+  border-radius: 10px;
+}
+.container .input-group #addUser {
+  background-color: #00ffff;
+  border: 1px solid transparent;
+  color: white;
+  border-radius: 10px;
+  letter-spacing: 2px;
+}
+.container .input-group #addUser:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+.container i {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

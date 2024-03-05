@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aquamarine;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.display{
+  overflow: auto;
+  height: 400px;
+}
+.container {
+  margin: auto;
+  width: 80%;
+  min-height: 400px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  .input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    #username {
+      letter-spacing:2px;
+      border-radius: 10px;
+    }
+    #addUser {
+      background-color: #00ffff;
+      border: 1px solid transparent;
+      color: white;
+      border-radius: 10px;
+      letter-spacing:2px;
+      &:hover {
+        background-color: blue;
+        cursor: pointer;
+      }
+    }
+  }
+  i {
+    cursor: pointer;
+  }
+}
