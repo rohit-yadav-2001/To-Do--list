@@ -26,9 +26,6 @@ h1 {
   border-radius: 5px;
 }
 .container .input-group {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 20px;
 }
 .container .input-group #username {
